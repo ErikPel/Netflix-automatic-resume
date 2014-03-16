@@ -12,6 +12,8 @@ pip install -r requirements.txt
 ```
 After that just run the main.py when you start watching netflix
 
+Program works by checking if the average image color of the location of play icon (![play_icon](http://i.imgur.com/RR3cTl7.png)) matches with average image color of the pause screen.
+If  that happens the program uses win32 api to click that button.
 
 ### Version 0.1
 * Only works with windows (uses win32api, don't have way to code linux or macOS right now since I can't test it)
