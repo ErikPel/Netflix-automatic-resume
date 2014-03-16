@@ -2,7 +2,7 @@ Netflix-automatic-resume
 ========================
 
 Automatizes clicking the resume button of netflixes automatic pause that happens after few episodes of TV-Series
-Automatically clicks the "resume playing" button when this happens:
+and automatically clicks the "resume playing" button when this happens:
 ![screenshot](http://i.imgur.com/MpCxPl2.jpg)
 
 Program works by checking if the average image color of the location of play icon (![play_icon](http://i.imgur.com/RR3cTl7.png)) matches with average image color of the pause screen.
